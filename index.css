@@ -1,56 +1,91 @@
-ul{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.top-bar {
+   display: flex;
+   align-items: center;
+   padding: 0 25px;
+   height: 25px;
+   width: 100%;
+   background-color: #ddd;
+   color: #333;
+   font-weight: 200;
+}
+
+.top-bar h4 {
+   font-family: monospace;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   height: 75px;
+   width: 100%;
+   padding: 0 50px;
+   border-bottom: 1px solid #ccc;
+   box-shadow: 3px 0px 4px #ccc;
+}
+
+.nav img {
+   height: 50%;
+   margin-right: 50px;
+   padding: 0;
+}
+
+.nav ul {
    margin: 0;
    padding: 0;
    list-style: none;
-   background-color:white;
+   background-color: white;
    height: 36px;
-   line-height:  36px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 13px;
+   line-height: 36px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 0.8rem;
 }
 
-li{
-   float:left;
+
+
+.nav li {
+   margin-right: 50px;
+   display: flex;
+   align-items: center;
+   float: left;
    border-right: 1px solid white;
 
 }
-a{
-   display:block;
+
+.nav li img {
+   height: 20px;
+   margin: 0;
+   margin-right: 10px;
+}
+
+.nav a {
+   display: block;
    padding: 0 28px;
    color: black;
    text-decoration: none;
 }
 
-.box1{
-   width: 60%;
-   height: 200px;
+.nav h4 {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
    background-color: white;
-   margin:20px auto;
-}
-.box2{
-   width: 15%;
-   height:200px;
-   background-color: white;
-   margin: 20px auto;
-}
-
-.box2{
-   width: 15%;
-   height:200px;
-   background-color: white;
-   margin: 20px auto;
+   height: 36px;
+   line-height: 36px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 0.8rem;
+   font-weight: 300;
 }
 
-.box2{
-   width: 15%;
-   height:200px;
-   background-color: white;
-   margin: 20px auto;
-   border-color: ;
-}
-.box3{
-   width:15%;
-   height:200px;
-   background-color: white;
-   margin: 20px auto;
+.nav h4 img {
+   height: 20px;
+   margin: 0;
+   margin-right: 10px;
 }
