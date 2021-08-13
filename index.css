@@ -6,6 +6,11 @@
    box-sizing: border-box;
 }
 
+body {
+   font-family: 'Open Sans', sans-serif;
+
+}
+
 .top-bar {
    display: flex;
    align-items: center;
@@ -88,4 +93,145 @@
    height: 20px;
    margin: 0;
    margin-right: 10px;
+}
+
+.main-container {
+   width: 100%;
+   padding: 50px 50px;
+}
+
+
+.search-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35px;
+   width: 100%;
+   margin-bottom: 35px;
+}
+
+.search-container input {
+   height: 100%;
+   width: 100%;
+   padding: 0 15px;
+   border: 1px solid #ccc;
+   font-size: 0.9rem;
+   font-family: 'Open Sans', sans-serif;
+   outline: none;
+}
+
+.grid-container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.api {
+   width: 22%;
+   margin: 10px 0;
+   padding: 20px 10px;
+   cursor: pointer;
+   border: 1px solid transparent;
+   transition: all 0.2s;
+
+}
+
+.api:hover {
+   border: 1px solid #ddd;
+   box-shadow: 5px 10px 25px #ccc;
+}
+
+.api .logo-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.api .logo {
+   height: 35px;
+   border-radius: 100%;
+}
+
+.api .category {
+   margin-left: auto;
+   font-family: 'Open Sans', sans-serif;
+   color: #333;
+   text-transform: capitalize;
+}
+
+.api .title {
+   margin-top: 15px;
+   font-size: 0.9rem;
+}
+
+.api .description {
+   margin-top: 10px;
+   font-size: 0.8rem;
+   line-height: 1.25;
+   word-spacing: 3px;
+   color: #333;
+}
+
+.footer {
+   height: 75%;
+   width: 100%;
+   padding: 75px 25px;
+   background-color: #fafbfc;
+   border-top: 1px solid #ccc;
+}
+
+.footer .nav-links-wrapper {
+   width: 100%;
+   padding-left: 10px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: left;
+}
+
+.nav-link-container {
+   margin-right: 175px;
+}
+
+.nav-link-container h3 {
+   font-size: 0.9rem;
+   color: #333;
+}
+
+.nav-link-container ul {
+   list-style: none;
+}
+
+.nav-link-container ul li {
+   margin: 10px 0;
+   font-size: 0.8rem;
+   color: #555;
+}
+
+.tags-container {
+   margin-top: 50px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   flex-wrap: wrap;
+}
+
+.tag {
+   margin: 5px;
+   padding: 5px;
+   font-size: 0.8rem;
+   background-color: #edf2f7;
+}
+
+.footer hr {
+   margin-top: 25px;
+   border-color: #eee;
+}
+
+.footer .copyright-text {
+   margin-top: 25px;
+   color: #777;
+   font-weight: 300;
 }
